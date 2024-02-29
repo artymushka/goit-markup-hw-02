@@ -89,11 +89,17 @@ ul, ol{
     min-height: 344px;
 }
 
-.third-title-list{
+.first-title-list{
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
     color: #2E2F42;
+}
+
+.third-title-list{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
 }
 
 .description{
@@ -142,7 +148,7 @@ ul, ol{
 }
 
 /*SECTION_3*/
-.third-title-list{
+.third-title{
     font-weight: 700;
     font-size: 36px;
     line-height: 40px;
