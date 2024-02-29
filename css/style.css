@@ -1,6 +1,7 @@
 body{
     font-family: "Roboto", sans-serif;
-    color: #ffffff;
+    color: #434455;
+    background-color: #ffffff;
 }
 
 p{
@@ -21,14 +22,15 @@ ul, ol{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-decoration: none;
     text-transform: uppercase;
-    color: #2E2F42;
+    color: #4D5AE5;
 }
 
 .web{
-    color: #4D5AE5;
+    color: #2E2F42;
 }
 
 .submenu .submenu-list{
@@ -36,6 +38,7 @@ ul, ol{
     color: #2E2F42;
     font-weight: 500;
     line-height: 24px;
+    letter-spacing: 0.02em;
 }
 
 .submenu .submenu-list:hover,
@@ -43,56 +46,55 @@ ul, ol{
     color: #404BBF;
 }
 
-.info .info-list{
+.info-content .info-list{
     text-decoration: none;
     color: #434455;
     font-weight: 400;
     line-height: 24px;
 }
 
-.info .info-list:hover,
-.info .info-list:focus{
+.info-content .info-list:hover,
+.info-content .info-list:focus{
     color: #404BBF;
+}
+
+.info{
+    font-style: normal;
 }
 
 /*TITLE*/
 .title{
     background-color: #2E2F42;
-    width: 100%;
-    min-height: 600px;
 }
 
 .title-list{
     font-weight: 700;
     font-size: 56px;
-    line-height: 60px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
     text-align: center;
     color: #FFFFFF;
 }
 
 .btn{
-    width: 169px; 
-    height: 56px;
-    border-radius: 4px;
-    padding: 16px 32px 16px 32px;
-    gap: 10px;
     font-weight: 500;
     line-height: 24px;
+    letter-spacing: 0.04em;
     background-color: #4D5AE5;
     color: #ffffff;
     cursor: pointer;
 }
 
-/*SECTION_1*/
-.first-section{
-    width: 100%;
-    min-height: 344px;
+.btn:hover, .btn:focus{
+    background-color: #404BBF;
 }
 
+/*SECTION_1*/
 .first-title-list{
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
+    letter-spacing: 0.02em;
     color: #2E2F42;
 }
 
@@ -106,35 +108,34 @@ ul, ol{
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
+    letter-spacing: 0.02em;
     color: #434455;
 }
 
 /*SECTION_2*/
 .second-section{
-    width: 100%;
-    min-height: 732px;
     background-color: #F4F4FD;
 }
 
 .second-title-list{
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    letter-spacing: 0.02em;
+    line-height: 1.11;
     text-align: center;
+    text-transform: capitalize;
     color: #2E2F42;
-    padding-top: 120px;
 }
 
 .second-slider-content{
-    width: 232px;
-    min-height: 56px;
-    gap: 8px;
+    background-color: #FFFFFF;
 }
 
 .name{
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
+    letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
 }
@@ -143,6 +144,7 @@ ul, ol{
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
+    letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
 }
@@ -151,26 +153,18 @@ ul, ol{
 .third-title{
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
     text-align: center;
-}
-
-.images{
-    height: 300px;
-}
-
-.third-slider-content{
-    min-width: 360px; 
-    min-height: 120px; 
-    border: 0px 1px 1px 1px; 
-    padding: 32px 16px 32px 16px; 
-    gap: 8px;
+    color: #2e2f42;
 }
 
 .name-content{
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
+    letter-spacing: 0.02em;
     color: #2E2F42;
 }
 
@@ -178,13 +172,12 @@ ul, ol{
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
+    letter-spacing: 0.02em;
     color: #434455;
 }
 
 /*FOOTER*/
 .footer{
-    width: 100%;
-    height: 312px;
     background-color: #2E2F42;
 }
 
@@ -192,18 +185,21 @@ ul, ol{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-decoration: none;
     text-transform: uppercase;
-    color: #F4F4FD;
-} 
+    color: #4d5ae5;
+}
+
+.web-footer{
+    color: #f4f4fd;
+}
 
 .footer-content{
-    width: 264px;
-    height: 72px;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 1.5;
+    letter-spacing: 0.02em;
     color: #F4F4FD;
 }
